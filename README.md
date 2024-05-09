@@ -22,7 +22,7 @@ Space complexity: O(?) -> O(1)
 Justification: 
 
 - Time copmlexity is O(1) since we are not iterating over an array.
--Space complexity is O(1)since we are ????????????
+-Space complexity is O(1)since we are decreasing the array and maintaining the same space.
 
 
 [pop on MDN][pop]
@@ -30,11 +30,11 @@ Justification:
 ## `arr.shift()`
 
 Time complexity: O(?) -> O(n)
-Space complexity: O(?) -> O(n)
+Space complexity: O(?) -> O(1)
 Justification:
 
 - Time complexity is either O(n) since the method removes from the beginning of an array.
-- Space complexity is O(n) since we are returning a new value removed from an array.
+- Space complexity is O(1) since an array is still maintaining the same amount of space.
 
 
 [shift on MDN][shift]
